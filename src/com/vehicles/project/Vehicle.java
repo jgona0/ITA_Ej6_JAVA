@@ -56,7 +56,6 @@ public abstract class Vehicle {
 	// METODO PARA OBTENER LA INFORMACION DE LAS RUEDAS
 	public String getInfoWheels() {
 		
-		int num_ruedas = wheels.size();
 		String info="";
 		
 		for (int i = 0; i < wheels.size(); i++) {
